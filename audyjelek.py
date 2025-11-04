@@ -96,4 +96,5 @@ friend = friend + 1
 friend += 1
 
 print(friend)
+print("HAIIII")
 
