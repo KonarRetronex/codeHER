@@ -43,12 +43,21 @@
 # : (space)   = insert a space before positive numbers
 # :,          = use a comma as a thousands separator
 
-print(f"{10000000:,}")
+angka = 12.7149743187072
+angka2 = 1
+print("00000")
+print(f"{angka2:05}")
+print(f"{angka:.0f}")
 
-price1 = 3.14159
-price2 = -987.65
-price3 = 12.34
 
-print(f"Price 1 is ${price1:10.2f}")
-print(f"Price 2 is ${price2:10.2f}")
-print(f"Price 3 is ${price3:10.2f}")
+
+
+# print(f"{10000000:,}")
+#
+# price1 = 3.14159
+# price2 = -987.65
+# price3 = 12.34
+#
+# print(f"Price 1 is ${price1:10.2f}")
+# print(f"Price 2 is ${price2:10.2f}")
+# print(f"Price 3 is ${price3:10.2f}")
