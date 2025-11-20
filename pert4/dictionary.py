@@ -20,3 +20,29 @@ print("Last popped pair:", last_pair)
 print("Keys:", student.keys())
 print("Values:", student.values())
 print("Items:", student.items())
+
+student = {"name": "John", "age": 20, "class": "A"}
+
+for key in student:
+    print(key)
+
+for key in student.keys():
+    print(key)
+
+student = {"name": "John", "age": 20, "class": "A"}
+
+for value in student.values():
+    print(value)
+
+
+# Dictionary example
+student = {
+    "name": "John",
+    "age": 20,
+    "class": "A",
+    "score": 88
+}
+
+# Loop through key and value
+for key, value in student.items():
+    print(key, ":", value)
